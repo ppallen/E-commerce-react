@@ -1,0 +1,53 @@
+.profile-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* 使容器高度佔滿整個視窗高度 */
+  padding: 20px; /* 增加內邊距 */
+}
+
+.profile-container {
+  max-width: 1400px; /* 增加容器的最大寬度 */
+  width: 40%;
+  padding: 30px; /* 增加容器的內邊距 */
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* 置中內容 */
+}
+
+.profile-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.profile-info {
+  width: 100%; /* 確保內容寬度 */
+  display: flex;
+  flex-direction: column;
+  gap: 20px; /* 增加表格項目之間的間距 */
+}
+
+.profile-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px; /* 增加表格項目的內邊距 */
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.profile-item label {
+  font-weight: bold;
+  color: #555;
+  margin-right: 10px; /* 增加 label 和 span 之間的間距 */
+  flex: 1; /* 確保 label 和 span 之間的內容對齊 */
+}
+
+.profile-item span {
+  color: #777;
+  flex: 2; /* 確保 label 和 span 之間的內容對齊 */
+}

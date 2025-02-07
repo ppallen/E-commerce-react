@@ -1,0 +1,89 @@
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f4; /* 淺灰色背景 */
+}
+
+.shop-home {
+  text-align: center;
+  background-color: #f5f5dc; /* 米色背景 */
+  min-height: 100vh; /* 確保背景顏色覆蓋整個視窗高度 */
+}
+
+.shop-header {
+  background-color: #333;
+  color: white;
+  padding: 20px 0; /* 增加 padding 以與標題有一定距離 */
+}
+
+.shop-header h1 {
+  margin: 0 0 20px 0; /* 與導航欄有一定距離 */
+}
+
+.shop-header nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: space-around; /* 平均分佈 */
+  margin: 0;
+}
+
+.shop-header nav ul li {
+  margin: 0 10px;
+}
+
+.shop-header nav ul li a {
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px; /* 添加 padding 使其看起來像按鈕 */
+  border: 1px solid white; /* 添加邊框 */
+  border-radius: 5px; /* 圓角 */
+  transition: background-color 0.3s; /* 添加過渡效果 */
+}
+
+.shop-header nav ul li a:hover {
+  background-color: #555; /* 懸停時的背景顏色 */
+}
+
+.product-list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 20px 0;
+}
+
+.product-item {
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin: 10px;
+  padding: 10px;
+  width: 200px;
+  text-align: center;
+}
+
+.product-item img {
+  max-width: 100%;
+  height: auto;
+}
+
+.product-item h3 {
+  margin: 10px 0;
+}
+
+.product-item p {
+  color: #888;
+}
+
+.product-item button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.product-item button:hover {
+  background-color: #0056b3;
+}

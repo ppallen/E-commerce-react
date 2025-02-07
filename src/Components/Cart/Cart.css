@@ -1,0 +1,52 @@
+.cart-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.cart-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 16px;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 16px;
+}
+
+.cart-item img {
+  width: 100px;
+  height: auto;
+  margin-right: 16px;
+}
+
+.item-details {
+  flex: 1;
+  margin-right: 16px;
+}
+
+.item-details label {
+  font-weight: bold;
+}
+
+.item-name {
+  display: block;
+  margin-top: 4px;
+  font-size: 14px;
+  color: #333;
+}
+
+.total-price {
+  margin-top: 16px;
+  text-align: right;
+}
+
+button {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: auto; /* 調整按鈕的寬度 */
+  min-width: 100px; /* 設置按鈕的最小寬度 */
+}
+
+button:hover {
+  background-color: #0056b3;
+}
